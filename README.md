@@ -8,25 +8,29 @@ This package reproduces experiments from the paper
 
 Calder, Cook, Thorpe, Slepcev. [Poisson Learning: Graph Based Semi-Supervised Learning at Very Low Label Rates.](http://proceedings.mlr.press/v119/calder20a.html), Proceedings of the 37th International Conference on Machine Learning, PMLR 119:1306-1316, 2020.
 
+## Newer version
+
+This is the old version of graphlearning (v0.0.3). The new version is [here](https://github.com/jwcalder/GraphLearning). 
+
 ## Installation
 
 Install with
 
 ```
-pip install graphlearning
+pip install graphlearning==0.0.3
 ```
 
 Required packages include numpy, scipy, sklearn, matplotlib, and torch. The packages annoy and kymatio are required for running nearest neighbor searches and the scattering transform, respectively, but the rest of the code will run fine without those packages. These dependencies should install automatically.
 
 To install from the github source, which is updated more frequently, run
 ```
-git clone https://github.com/jwcalder/GraphLearning
-cd GraphLearning
+git clone https://github.com/jwcalder/GraphLearningOld
+cd GraphLearningOld
 python setup.py install --user
 ```
 If you prefer to use ssh swap the first line with
 ```
-git clone git@github.com:jwcalder/GraphLearning.git
+git clone git@github.com:jwcalder/GraphLearningOld.git
 ```
 
 ## Getting started with basic experiments
